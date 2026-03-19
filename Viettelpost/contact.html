@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>CONTACT VIETTEL POST</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        /* Style giống ảnh bạn gửi: màu đỏ chủ đạo, quote lớn, layout flex */
+        .contact-container {
+            text-align: center;
+            padding: 40px 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .title {
+            color: #c62828; /* đỏ đậm giống ảnh */
+            font-size: 2.2rem;
+            font-weight: bold;
+            margin-bottom: 30px;
+            text-transform: uppercase;
+        }
+        .main-phone {
+            color: #c62828;
+            font-size: 1.8rem;
+            font-weight: bold;
+            margin-bottom: 50px;
+        }
+        .blocks {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 40px;
+        }
+        .quote-block {
+            flex: 1;
+            min-width: 300px;
+            background: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+            position: relative;
+        }
+        .quote-open, .quote-close {
+            font-size: 4rem;
+            color: #d32f2f; /* đỏ quote */
+            line-height: 1;
+            margin: 0;
+            font-family: serif; /* để quote trông nghệ thuật hơn */
+        }
+        .quote-open { text-align: left; }
+        .quote-close { text-align: right; }
+        .quote-content {
+            font-size: 1.1rem;
+            color: #333;
+            margin: 15px 0;
+        }
+        .name {
+            font-weight: bold;
+            color: #c62828;
+        }
+        .red-bar {
+            height: 10px;
+            background: #d32f2f; /* đỏ thanh ngang */
+            margin: 60px auto 0;
+            max-width: 900px;
+            border-radius: 5px;
+        }
+        a.tel-link {
+            color: #c62828;
+            font-weight: bold;
+            text-decoration: none;
+        }
+        a.tel-link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <nav>
+         <div class="logo">
+            <img src="logo.png" alt="Logo Công Ty" />
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="quotation.html">PRICE QUOTATION</a></li>
+            <li><a href="contact.html" class="active">CONTACT</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <div class="contact-container">
+        <h2 class="title">PLEASE CONTACT US TO HELP</h2>
+
+
+        <div class="blocks">
+
+            <!-- Ms. Quyên -->
+            <div class="quote-block">
+                <p class="quote-open">„</p>
+                <p class="quote-content">
+                    Zalo/Phone/Wechat: <a href="tel:+84594709832" class="tel-link">0394709832</a><br>
+                    Email: <a href="mailto:quynnhptq@os.viettel.com.vn" style="color: #c62828;">quynnhptq@os.viettel.com.vn</a>
+                </p>
+                <p class="name">- Ms. Quỳnh</p>
+                <p class="quote-close">“</p>
+            </div>
+
+            <!-- Mr. Vũ -->
+            <div class="quote-block">
+                <p class="quote-open">„</p>
+                <p class="quote-content">
+                    Zalo/Phone/Wechat: <a href="tel:+8459394709832" class="tel-link">0979692456</a><br>
+                    Email: <a href="mailto:quynnhptq@os.viettel.com.vn" style="color: #c62828;"></a>
+                </p>
+                <p class="name">- Mr. Linh</p>
+                <p class="quote-close">“</p>
+            </div>
+
+            <!-- Mr. Linh -->
+            <div class="quote-block">
+                <p class="quote-open">„</p>
+                <p class="quote-content">
+                    Zalo/Phone/Wechat: <a href="tel:+8479692456" class="tel-link"></a><br>
+                    Email: <a href="mailto:quynnhptq@os.viettel.com.vn" style="color: #c62828;"></a>
+                </p>
+                <p class="name">- Mr. Vũ</p>
+                <p class="quote-close">“</p>
+            </div>
+
+        </div>
+
+        <div class="red-bar"></div>
+    </div>
+</main>
+
+</body>
+</html>
