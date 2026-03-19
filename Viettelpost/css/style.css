@@ -38,7 +38,7 @@ nav {
 }
 
 .nav-links {
-    list-style: none;
+    list-style: flex;
     display: flex;
     gap: 2.5rem;
 }
