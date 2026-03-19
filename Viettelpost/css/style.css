@@ -51,12 +51,12 @@ nav {
     padding: 0.4rem 0.2rem;
 }
 
-.nav-links li a:hover,
-.nav-links li a.active {
-    color: #4fc3f7;
-    border-bottom: 2px solid #4fc3f7;
+.nav-links li a:hover, 
+.nav-links li a:active, 
+.nav-links li a:focus {
+    text-decoration: none !important;
+    border-bottom: none !important; /* Phòng trường hợp bạn có dùng border-bottom */
 }
-
 /* ----------------- MAIN CONTENT ----------------- */
 main {
     max-width: 1200px;
