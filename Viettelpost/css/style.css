@@ -38,9 +38,9 @@ nav {
 }
 
 .nav-links {
-    list-style: flex;
+    list-style: none;
     display: flex;
-    gap: 2.5rem;
+    gap: 1.5rem;
 }
 
 .nav-links li a {
